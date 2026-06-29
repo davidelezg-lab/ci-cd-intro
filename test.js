@@ -1,4 +1,4 @@
-if (2 + 2 !== 4) {
+if (2 + 2 !== 5) {
   throw new Error("Error en cálculo");
 }
-console.log("Test OK");
+
