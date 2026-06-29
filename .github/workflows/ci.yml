@@ -15,5 +15,8 @@ jobs:
       - name: Ejecutar script
         run: node app.js
 
-      - name: Ejecutar tests
+      - name: Ejecutar los tests
         run: node test.js
+
+      - name: Deploy (simulado)
+        run: echo "Desplegando la aplicación..."
