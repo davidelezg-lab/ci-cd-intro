@@ -14,3 +14,6 @@ jobs:
       
       - name: Ejecutar script
         run: node app.js
+
+      - name: Ejecutar tests
+        run: node test.js
